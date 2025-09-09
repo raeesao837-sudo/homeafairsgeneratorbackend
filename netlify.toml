@@ -1,0 +1,8 @@
+[build]
+  publish = "public"
+  functions = "functions"
+
+[[redirects]]
+  from = "/generate-permit"
+  to = "/.netlify/functions/generate-permit"
+  status = 200
